@@ -1,0 +1,34 @@
+Units vs. Framerate (all unit types incremented equally) (framerates are approximate as they fluctuate frequently)
+
+
+Units	FPS	s/frame
+
+0	1000 	(0.0010)
+16	920	(0.0011)
+32	590	(0.0017)
+48	500	(0.0020)
+64	480	(0.0021)
+80	480	(0.0021)
+96	390	(0.0025)
+112	375	(0.0026)
+128	340	(0.0029)
+144	314	(0.0031)	
+160	310	(0.0032)	
+176	250	(0.0040)	
+192	230	(0.0043)	
+208	223	(0.0045)	
+224	185	(0.0054)
+240	210	(0.0047)	
+256	167	(0.0060)	
+272	160	(0.0063)
+288	150	(0.0067)	
+304	143	(0.0070)	
+320	133	(0.0075)
+336	120	(0.0083)
+352	115	(0.0087)
+368	110	(0.0090)
+384	109	(0.0092)
+400	100	(0.0100)
+
+
+Numbers plateau after 320 becasue at that point, the map is so overcrowded that there are 10s of deaths within the first few seconds of the game
