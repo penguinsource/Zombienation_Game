@@ -27,3 +27,11 @@ Potential compatibility issue:
 		- our game uses a canvas to draw the entire map to in order to avoid drawing 10,000 tiles at each cycle
 		- this canvas may end up being too big to be stored by older graphics cards
 	- if this occurs, the computers in the Windows labs are able to run the game no problem
+
+Authors:
+
+Mihai Oprescu ( me )
+
+Mikus Lorence ( https://github.com/shade45 )
+
+Michael Bessette
