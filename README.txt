@@ -1,32 +1,33 @@
 Running the game:
 
-	- this distributable only works on windows machines
-	- click the run.bat file in the src directory 
-	- this simply runs the game engine (loveapp/love.exe) with the current directory as argument
+	- Click the run.bat file in the src directory for Windows launch.
+	- Unix and Mac OS X require love2d implementation.
+	- Runs the game engine (loveapp/love.exe) with the current directory as argument.
 
 
 Controls:
 
-	- arrow keys to move camera around
-	- 'esc' to pause the game and access menu
-	- some debug controls were used for testing and are left in, but may not be stable
-		- '[' and ']' to zoom in and out (some things are not responsive unless at original zoom level)
-		- numpad '+' and '-' to speed up and slow down time (may crash past 8x)
-		- 'p' and 'r' to quickly pause and restart game (unpredictable behavior if used together with the 'esc' pause menu)
+	- Press arrow keys to move camera around.
+	- Press 'esc' to pause the game and access menu.
+	- Some debug controls were used for testing and are left in - but may not be stable.
+	- Press '[' and ']' to zoom in and out (some things are not responsive unless at original zoom level).
+	- Press numpad '+' and '-' to speed up and slow down time (may crash past 8x).
+	- Press 'p' and 'r' to quickly pause and restart game (unpredictable behavior if used together with the 'esc' pause menu).
 
 Options:
 
-	- at the start of the game you can modify how many of each units spawn (for easer testing) as well as regenerate the map
+	- At the start of the game you can modify how many of each units spawn (for easer testing) as well as regenerate the map.
+	- main.lua allows game settings customization of number of zombies, workers, rangers, humans and editing of width and height of map size.
+	- main.lua has settings to change difficulty of random map generation.
 
 
 
 Potential compatibility issue:
 
-	- there may be an issue with OpenGL with on-board graphics cards
-		- this is due to them not being able to store textures beyond a certain resolution
-		- our game uses a canvas to draw the entire map to in order to avoid drawing 10,000 tiles at each cycle
-		- this canvas may end up being too big to be stored by older graphics cards
-	- if this occurs, the computers in the Windows labs are able to run the game no problem
+	- There may be an issue with OpenGL with on-board graphics cards due to not being able to store textures beyond a certain resolution.
+	- Game uses a canvas to draw the entire map in order to avoid drawing 10,000 tiles at each cycle.
+	- Canvas may end up being too big to be stored by older graphics cards.
+	- This app is compatible and tested on Linux/Windows/Mac OS X systems using love2d implementation: https://love2d.org/wiki/Getting_Started
 
 Authors:
 
