@@ -1,3 +1,5 @@
+7 years after Mikus and I made this game, here is a little video demo of it on a Windows machine. Yes, I can't remember how the simulation works exactly but it's surprinsingly complex: https://www.loom.com/share/d6a19f504ead4c539f9ad9ecadb55d54
+
 Running the game:
 
 	- Click the run.bat file in the src directory for Windows launch.
